@@ -1,0 +1,40 @@
+{
+  "name": "mauricerenck/uberblogr",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mauricerenck/uberblogr",
+  "description": "Pings UberBlogr",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maurice Renck",
+      "email": "hello@maurice-renck.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "mauricerenck\\Uberblogr\\": "lib/"
+    },
+    "classmap": [
+      "lib"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "require": {
+    "php": ">=8.2.0",
+    "getkirby/composer-installer": "^1.2"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit --testdox --colors=always",
+    "build-test-package": "git archive HEAD -o uberblogr.zip --worktree-attributes",
+    "build-composer": "composer install --no-dev --optimize-autoloader",
+    "build-release": [
+      "composer install --no-dev --optimize-autoloader"
+    ]
+  }
+}
