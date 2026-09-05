@@ -2,8 +2,6 @@
 
 ![GitHub release](https://img.shields.io/github/release/mauricerenck/uberblogr.svg?maxAge=1800) ![License](https://img.shields.io/github/license/mashape/apistatus.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-4%2B-black.svg)
 
-![Header](/assets/uberblogr-header.png)
-
 This Kirby plugin will ping uberblogr.com whenever you publish a page.
 
 ---
