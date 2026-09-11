@@ -6,6 +6,8 @@ This Kirby plugin will ping uberblogr.com whenever you publish a page.
 
 ---
 
+![header](/assets/uberblogr-header.png)
+
 ## Installation
 
 Use one of these methods to install the plugin:
