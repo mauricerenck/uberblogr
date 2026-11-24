@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
         'name' => 'mauricerenck/uberblogr',
-        'pretty_version' => '1.0.0',
-        'version' => '1.0.0.0',
+        'pretty_version' => '1.0.1',
+        'version' => '1.0.1.0',
         'reference' => null,
         'type' => 'kirby-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         'getkirby/composer-installer' => array(
@@ -20,8 +20,8 @@
             'dev_requirement' => false,
         ),
         'mauricerenck/uberblogr' => array(
-            'pretty_version' => '1.0.0',
-            'version' => '1.0.0.0',
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
             'reference' => null,
             'type' => 'kirby-plugin',
             'install_path' => __DIR__ . '/../../',
